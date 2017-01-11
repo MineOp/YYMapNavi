@@ -1,0 +1,6 @@
+
+platform :ios,'8.0'
+target 'YYMapNavi' do
+pod 'AMapNavi'
+pod 'AMapLocation'
+end

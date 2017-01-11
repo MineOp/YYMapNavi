@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1804BA1F1E2335C40012AD4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804BA1E1E2335C40012AD4F /* main.m */; };
+		1804BA221E2335C40012AD4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804BA211E2335C40012AD4F /* AppDelegate.m */; };
+		1804BA251E2335C40012AD4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804BA241E2335C40012AD4F /* ViewController.m */; };
+		1804BA281E2335C50012AD4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804BA261E2335C50012AD4F /* Main.storyboard */; };
+		1804BA2A1E2335C50012AD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1804BA291E2335C50012AD4F /* Assets.xcassets */; };
+		1804BA2D1E2335C50012AD4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804BA2B1E2335C50012AD4F /* LaunchScreen.storyboard */; };
+		1804BA381E2335C50012AD4F /* YYMapNaviTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804BA371E2335C50012AD4F /* YYMapNaviTests.m */; };
+		1804BA431E2335C50012AD4F /* YYMapNaviUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804BA421E2335C50012AD4F /* YYMapNaviUITests.m */; };
+		18A6E48E1E2357B100FB583D /* DriveNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6E47E1E2357B100FB583D /* DriveNaviViewController.m */; };
+		18A6E48F1E2357B100FB583D /* MoreMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6E4811E2357B100FB583D /* MoreMenuView.m */; };
+		18A6E4901E2357B100FB583D /* NaviPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6E4841E2357B100FB583D /* NaviPointAnnotation.m */; };
+		18A6E4911E2357B100FB583D /* RouteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6E4871E2357B100FB583D /* RouteCollectionViewCell.m */; };
+		18A6E4921E2357B100FB583D /* SelectableOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6E48A1E2357B100FB583D /* SelectableOverlay.m */; };
+		18A6E4931E2357B100FB583D /* SpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6E48D1E2357B100FB583D /* SpeechSynthesizer.m */; };
+		DCC4B186CDC028988CECE92F /* libPods-YYMapNavi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 218078B28A5D8139F334BCA9 /* libPods-YYMapNavi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1804BA341E2335C50012AD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1804BA121E2335C40012AD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1804BA191E2335C40012AD4F;
+			remoteInfo = YYMapNavi;
+		};
+		1804BA3F1E2335C50012AD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1804BA121E2335C40012AD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1804BA191E2335C40012AD4F;
+			remoteInfo = YYMapNavi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1804BA1A1E2335C40012AD4F /* YYMapNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYMapNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1804BA1E1E2335C40012AD4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1804BA201E2335C40012AD4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1804BA211E2335C40012AD4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1804BA231E2335C40012AD4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1804BA241E2335C40012AD4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1804BA271E2335C50012AD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1804BA291E2335C50012AD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1804BA2C1E2335C50012AD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1804BA2E1E2335C50012AD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1804BA331E2335C50012AD4F /* YYMapNaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYMapNaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1804BA371E2335C50012AD4F /* YYMapNaviTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYMapNaviTests.m; sourceTree = "<group>"; };
+		1804BA391E2335C50012AD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1804BA3E1E2335C50012AD4F /* YYMapNaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYMapNaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1804BA421E2335C50012AD4F /* YYMapNaviUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYMapNaviUITests.m; sourceTree = "<group>"; };
+		1804BA441E2335C50012AD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A6E47D1E2357B100FB583D /* DriveNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveNaviViewController.h; sourceTree = "<group>"; };
+		18A6E47E1E2357B100FB583D /* DriveNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveNaviViewController.m; sourceTree = "<group>"; };
+		18A6E4801E2357B100FB583D /* MoreMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreMenuView.h; sourceTree = "<group>"; };
+		18A6E4811E2357B100FB583D /* MoreMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreMenuView.m; sourceTree = "<group>"; };
+		18A6E4831E2357B100FB583D /* NaviPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviPointAnnotation.h; sourceTree = "<group>"; };
+		18A6E4841E2357B100FB583D /* NaviPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviPointAnnotation.m; sourceTree = "<group>"; };
+		18A6E4861E2357B100FB583D /* RouteCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteCollectionViewCell.h; sourceTree = "<group>"; };
+		18A6E4871E2357B100FB583D /* RouteCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteCollectionViewCell.m; sourceTree = "<group>"; };
+		18A6E4891E2357B100FB583D /* SelectableOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableOverlay.h; sourceTree = "<group>"; };
+		18A6E48A1E2357B100FB583D /* SelectableOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectableOverlay.m; sourceTree = "<group>"; };
+		18A6E48C1E2357B100FB583D /* SpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizer.h; sourceTree = "<group>"; };
+		18A6E48D1E2357B100FB583D /* SpeechSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesizer.m; sourceTree = "<group>"; };
+		218078B28A5D8139F334BCA9 /* libPods-YYMapNavi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYMapNavi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711C956E58A664C606C71D6 /* Pods-YYMapNavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYMapNavi.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYMapNavi/Pods-YYMapNavi.release.xcconfig"; sourceTree = "<group>"; };
+		CA95A96632D887A91A909676 /* Pods-YYMapNavi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYMapNavi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYMapNavi/Pods-YYMapNavi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1804BA171E2335C40012AD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC4B186CDC028988CECE92F /* libPods-YYMapNavi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1804BA301E2335C50012AD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1804BA3B1E2335C50012AD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EC78C9E4716F6512BDFF86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				218078B28A5D8139F334BCA9 /* libPods-YYMapNavi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1804BA111E2335C40012AD4F = {
+			isa = PBXGroup;
+			children = (
+				1804BA1C1E2335C40012AD4F /* YYMapNavi */,
+				1804BA361E2335C50012AD4F /* YYMapNaviTests */,
+				1804BA411E2335C50012AD4F /* YYMapNaviUITests */,
+				1804BA1B1E2335C40012AD4F /* Products */,
+				C8EF3B4E042D942CC7CED467 /* Pods */,
+				13EC78C9E4716F6512BDFF86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1804BA1B1E2335C40012AD4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1804BA1A1E2335C40012AD4F /* YYMapNavi.app */,
+				1804BA331E2335C50012AD4F /* YYMapNaviTests.xctest */,
+				1804BA3E1E2335C50012AD4F /* YYMapNaviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1804BA1C1E2335C40012AD4F /* YYMapNavi */ = {
+			isa = PBXGroup;
+			children = (
+				18A6E47B1E2357B100FB583D /* Common */,
+				1804BA201E2335C40012AD4F /* AppDelegate.h */,
+				1804BA211E2335C40012AD4F /* AppDelegate.m */,
+				1804BA231E2335C40012AD4F /* ViewController.h */,
+				1804BA241E2335C40012AD4F /* ViewController.m */,
+				1804BA261E2335C50012AD4F /* Main.storyboard */,
+				1804BA291E2335C50012AD4F /* Assets.xcassets */,
+				1804BA2B1E2335C50012AD4F /* LaunchScreen.storyboard */,
+				1804BA2E1E2335C50012AD4F /* Info.plist */,
+				1804BA1D1E2335C40012AD4F /* Supporting Files */,
+			);
+			path = YYMapNavi;
+			sourceTree = "<group>";
+		};
+		1804BA1D1E2335C40012AD4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1804BA1E1E2335C40012AD4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1804BA361E2335C50012AD4F /* YYMapNaviTests */ = {
+			isa = PBXGroup;
+			children = (
+				1804BA371E2335C50012AD4F /* YYMapNaviTests.m */,
+				1804BA391E2335C50012AD4F /* Info.plist */,
+			);
+			path = YYMapNaviTests;
+			sourceTree = "<group>";
+		};
+		1804BA411E2335C50012AD4F /* YYMapNaviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1804BA421E2335C50012AD4F /* YYMapNaviUITests.m */,
+				1804BA441E2335C50012AD4F /* Info.plist */,
+			);
+			path = YYMapNaviUITests;
+			sourceTree = "<group>";
+		};
+		18A6E47B1E2357B100FB583D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18A6E47C1E2357B100FB583D /* DriveNaviViewController */,
+				18A6E47F1E2357B100FB583D /* MoreMenuView */,
+				18A6E4821E2357B100FB583D /* PointAnnotation */,
+				18A6E4851E2357B100FB583D /* RouteCollectionViewCell */,
+				18A6E4881E2357B100FB583D /* SelectableOverlay */,
+				18A6E48B1E2357B100FB583D /* SpeechSynthesizer */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18A6E47C1E2357B100FB583D /* DriveNaviViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18A6E47D1E2357B100FB583D /* DriveNaviViewController.h */,
+				18A6E47E1E2357B100FB583D /* DriveNaviViewController.m */,
+			);
+			path = DriveNaviViewController;
+			sourceTree = "<group>";
+		};
+		18A6E47F1E2357B100FB583D /* MoreMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				18A6E4801E2357B100FB583D /* MoreMenuView.h */,
+				18A6E4811E2357B100FB583D /* MoreMenuView.m */,
+			);
+			path = MoreMenuView;
+			sourceTree = "<group>";
+		};
+		18A6E4821E2357B100FB583D /* PointAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				18A6E4831E2357B100FB583D /* NaviPointAnnotation.h */,
+				18A6E4841E2357B100FB583D /* NaviPointAnnotation.m */,
+			);
+			path = PointAnnotation;
+			sourceTree = "<group>";
+		};
+		18A6E4851E2357B100FB583D /* RouteCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18A6E4861E2357B100FB583D /* RouteCollectionViewCell.h */,
+				18A6E4871E2357B100FB583D /* RouteCollectionViewCell.m */,
+			);
+			path = RouteCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		18A6E4881E2357B100FB583D /* SelectableOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				18A6E4891E2357B100FB583D /* SelectableOverlay.h */,
+				18A6E48A1E2357B100FB583D /* SelectableOverlay.m */,
+			);
+			path = SelectableOverlay;
+			sourceTree = "<group>";
+		};
+		18A6E48B1E2357B100FB583D /* SpeechSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				18A6E48C1E2357B100FB583D /* SpeechSynthesizer.h */,
+				18A6E48D1E2357B100FB583D /* SpeechSynthesizer.m */,
+			);
+			path = SpeechSynthesizer;
+			sourceTree = "<group>";
+		};
+		C8EF3B4E042D942CC7CED467 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA95A96632D887A91A909676 /* Pods-YYMapNavi.debug.xcconfig */,
+				A711C956E58A664C606C71D6 /* Pods-YYMapNavi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1804BA191E2335C40012AD4F /* YYMapNavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1804BA471E2335C50012AD4F /* Build configuration list for PBXNativeTarget "YYMapNavi" */;
+			buildPhases = (
+				8A31135E123F8055FDBAAAA8 /* [CP] Check Pods Manifest.lock */,
+				1804BA161E2335C40012AD4F /* Sources */,
+				1804BA171E2335C40012AD4F /* Frameworks */,
+				1804BA181E2335C40012AD4F /* Resources */,
+				A55D4B627B24CB6BEB1272C5 /* [CP] Embed Pods Frameworks */,
+				247B3E291B38965A8CAAA5E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYMapNavi;
+			productName = YYMapNavi;
+			productReference = 1804BA1A1E2335C40012AD4F /* YYMapNavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1804BA321E2335C50012AD4F /* YYMapNaviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1804BA4A1E2335C50012AD4F /* Build configuration list for PBXNativeTarget "YYMapNaviTests" */;
+			buildPhases = (
+				1804BA2F1E2335C50012AD4F /* Sources */,
+				1804BA301E2335C50012AD4F /* Frameworks */,
+				1804BA311E2335C50012AD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1804BA351E2335C50012AD4F /* PBXTargetDependency */,
+			);
+			name = YYMapNaviTests;
+			productName = YYMapNaviTests;
+			productReference = 1804BA331E2335C50012AD4F /* YYMapNaviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1804BA3D1E2335C50012AD4F /* YYMapNaviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1804BA4D1E2335C50012AD4F /* Build configuration list for PBXNativeTarget "YYMapNaviUITests" */;
+			buildPhases = (
+				1804BA3A1E2335C50012AD4F /* Sources */,
+				1804BA3B1E2335C50012AD4F /* Frameworks */,
+				1804BA3C1E2335C50012AD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1804BA401E2335C50012AD4F /* PBXTargetDependency */,
+			);
+			name = YYMapNaviUITests;
+			productName = YYMapNaviUITests;
+			productReference = 1804BA3E1E2335C50012AD4F /* YYMapNaviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1804BA121E2335C40012AD4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yizooo;
+				TargetAttributes = {
+					1804BA191E2335C40012AD4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4BZT75DS53;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					1804BA321E2335C50012AD4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1804BA191E2335C40012AD4F;
+					};
+					1804BA3D1E2335C50012AD4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1804BA191E2335C40012AD4F;
+					};
+				};
+			};
+			buildConfigurationList = 1804BA151E2335C40012AD4F /* Build configuration list for PBXProject "YYMapNavi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1804BA111E2335C40012AD4F;
+			productRefGroup = 1804BA1B1E2335C40012AD4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1804BA191E2335C40012AD4F /* YYMapNavi */,
+				1804BA321E2335C50012AD4F /* YYMapNaviTests */,
+				1804BA3D1E2335C50012AD4F /* YYMapNaviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1804BA181E2335C40012AD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1804BA2D1E2335C50012AD4F /* LaunchScreen.storyboard in Resources */,
+				1804BA2A1E2335C50012AD4F /* Assets.xcassets in Resources */,
+				1804BA281E2335C50012AD4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1804BA311E2335C50012AD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1804BA3C1E2335C50012AD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		247B3E291B38965A8CAAA5E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYMapNavi/Pods-YYMapNavi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A31135E123F8055FDBAAAA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A55D4B627B24CB6BEB1272C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYMapNavi/Pods-YYMapNavi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1804BA161E2335C40012AD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1804BA251E2335C40012AD4F /* ViewController.m in Sources */,
+				18A6E4931E2357B100FB583D /* SpeechSynthesizer.m in Sources */,
+				18A6E48F1E2357B100FB583D /* MoreMenuView.m in Sources */,
+				18A6E4911E2357B100FB583D /* RouteCollectionViewCell.m in Sources */,
+				1804BA221E2335C40012AD4F /* AppDelegate.m in Sources */,
+				18A6E4921E2357B100FB583D /* SelectableOverlay.m in Sources */,
+				1804BA1F1E2335C40012AD4F /* main.m in Sources */,
+				18A6E48E1E2357B100FB583D /* DriveNaviViewController.m in Sources */,
+				18A6E4901E2357B100FB583D /* NaviPointAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1804BA2F1E2335C50012AD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1804BA381E2335C50012AD4F /* YYMapNaviTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1804BA3A1E2335C50012AD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1804BA431E2335C50012AD4F /* YYMapNaviUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1804BA351E2335C50012AD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1804BA191E2335C40012AD4F /* YYMapNavi */;
+			targetProxy = 1804BA341E2335C50012AD4F /* PBXContainerItemProxy */;
+		};
+		1804BA401E2335C50012AD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1804BA191E2335C40012AD4F /* YYMapNavi */;
+			targetProxy = 1804BA3F1E2335C50012AD4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1804BA261E2335C50012AD4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1804BA271E2335C50012AD4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1804BA2B1E2335C50012AD4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1804BA2C1E2335C50012AD4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1804BA451E2335C50012AD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1804BA461E2335C50012AD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1804BA481E2335C50012AD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA95A96632D887A91A909676 /* Pods-YYMapNavi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BZT75DS53;
+				INFOPLIST_FILE = YYMapNavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yun.YYMapNavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1804BA491E2335C50012AD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A711C956E58A664C606C71D6 /* Pods-YYMapNavi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4BZT75DS53;
+				INFOPLIST_FILE = YYMapNavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yun.YYMapNavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1804BA4B1E2335C50012AD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYMapNaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yun.YYMapNaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYMapNavi.app/YYMapNavi";
+			};
+			name = Debug;
+		};
+		1804BA4C1E2335C50012AD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYMapNaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yun.YYMapNaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYMapNavi.app/YYMapNavi";
+			};
+			name = Release;
+		};
+		1804BA4E1E2335C50012AD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYMapNaviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yun.YYMapNaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYMapNavi;
+			};
+			name = Debug;
+		};
+		1804BA4F1E2335C50012AD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYMapNaviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yun.YYMapNaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYMapNavi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1804BA151E2335C40012AD4F /* Build configuration list for PBXProject "YYMapNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1804BA451E2335C50012AD4F /* Debug */,
+				1804BA461E2335C50012AD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1804BA471E2335C50012AD4F /* Build configuration list for PBXNativeTarget "YYMapNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1804BA481E2335C50012AD4F /* Debug */,
+				1804BA491E2335C50012AD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1804BA4A1E2335C50012AD4F /* Build configuration list for PBXNativeTarget "YYMapNaviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1804BA4B1E2335C50012AD4F /* Debug */,
+				1804BA4C1E2335C50012AD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1804BA4D1E2335C50012AD4F /* Build configuration list for PBXNativeTarget "YYMapNaviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1804BA4E1E2335C50012AD4F /* Debug */,
+				1804BA4F1E2335C50012AD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1804BA121E2335C40012AD4F /* Project object */;
+}
